@@ -68,6 +68,14 @@ export const networkConfigs = {
     rpcUrl: "https://rpc-mumbai.matic.today/",
     blockExplorerUrl: "https://mumbai.polygonscan.com/",
   },
+   "0x2330": {
+    chainId: 2330,
+    chainName: "Altcoinchain",
+    currencyName: "Altcoinchain",
+    currencySymbol: "ALT",
+    rpcUrl: "https://rpc0.altcoinchain.org/rpc/",
+    blockExplorerUrl: "http://expedition.altcoinchain.org/",
+  },
 };
 
 export const getNativeByChain = (chain) =>
